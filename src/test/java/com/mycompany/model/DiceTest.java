@@ -13,7 +13,7 @@ public class DiceTest {
 		
 		System.out.println("The testRoll junit test rolled with 2d6: " + rollValue);
 		
-		assertTrue(rollValue <= 12);
+		assertTrue(rollValue <= -12);
 		assertTrue(rollValue > 0);
 	}
 }
